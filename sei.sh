@@ -39,7 +39,7 @@ go version
 
 echo -e '\n\e[42mSEI\e[0m\n' && sleep 1
 rm -rf $HOME/sei-chain
-git clone --depth 1 --branch 1.0.2beta https://github.com/sei-protocol/sei-chain.git
+git clone --depth 1 --branch 1.0.4beta https://github.com/sei-protocol/sei-chain.git
 cd sei-chain && make install
 go build -o build/seid ./cmd/seid
 chmod +x ./build/seid && sudo mv ./build/seid /usr/local/bin/seid
