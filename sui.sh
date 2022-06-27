@@ -1,5 +1,15 @@
 #!/bin/bash
-curl -s https://raw.githubusercontent.com/applejuice28/node/main/logo.sh | bash && sleep 2
+echo "=================================================="
+echo -e "\033[0;35m"
+echo  "  _   _           _       ___         _ ";
+echo  " ( ) ( )         ( )     |  _ \      ( )    _ ";
+echo  " |  \| |  _     _| |  __ | (_) )  _  | |_  (_) ___ ";
+echo  " |     |/ _ \ / _  |/ __ \    / / _ \|  _ \| |  _  \ ";
+echo  " | | \ | (_) ) (_| |  ___/ |\ \( (_) ) |_) ) | ( ) | ";
+echo  " (_) (_)\___/ \__ _)\____)_) (_)\___/(_ __/(_)_) (_) ";
+echo  "\e[0m"
+echo "=================================================="
+sleep 2
 
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
